@@ -1,1 +1,0 @@
-docker run --rm -v "${PWD}:/srv/jekyll" -p 4001:4000 -it jekyll/jekyll /bin/bash -c "jekyll serve --drafts --trace"
