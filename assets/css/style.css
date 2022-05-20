@@ -777,6 +777,38 @@ header {
       .navbar ul li.active {
         background-color: rgba(255, 255, 255, 0.15); }
 
+.panel-note {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #f0f7fb;
+  background-image: url(/assets/images/saw_blade_warning.png);
+  background-position: 5px 15px;
+  background-repeat: no-repeat;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 13px 20px 15px 65px;
+  min-height: 80px; }
+
+.panel-note.top-padding {
+  padding-top: 25px; }
+
+.panel-warning {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #fcf8e3;
+  background-image: url(/assets/common/warning.png);
+  background-position: 5px 15px;
+  background-repeat: no-repeat;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 13px 20px 15px 65px;
+  min-height: 80px; }
+
+.panel-warning.top-padding {
+  padding-top: 25px; }
+
 .texture-black {
   background-image: url("/assets/textures/black.jpg"); }
   .texture-black h2 {
@@ -816,11 +848,13 @@ header {
   color: #ddd; }
 
 .texture-blue-image {
-  background-image: url("/assets/textures/pexels-fwstudio-131634.jpg");
+  background-image: url("/assets/textures/pexels-engin-akyurt-1435752.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto; }
+  .texture-blue-image h1 {
+    color: yellow; }
   .texture-blue-image h2 {
-    color: #ddd; }
+    color: #fff; }
   .texture-blue-image .social i:hover {
     color: #eee; }
   .texture-blue-image .post-date {
